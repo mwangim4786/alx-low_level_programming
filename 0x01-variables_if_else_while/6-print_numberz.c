@@ -2,7 +2,7 @@
 
 /**
  * main - Single digit numbers of base 10 from 0
- *        
+ *
  *
  * Return: Returns 0.
  */
