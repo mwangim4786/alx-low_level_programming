@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - Print characters _putchar
- * Return: Always returns 0
+ * print_alphabet - print alphabet s in lower case
  */
-int main(void)
+void print_alphabet(void)
 {
 	char letter;
 
