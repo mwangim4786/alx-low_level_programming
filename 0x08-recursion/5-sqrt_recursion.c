@@ -5,7 +5,6 @@
  * _sqrt_recursion - returns the natural square root of a number
  * @a:int
  * @b:int
- * Return: natural square root or -1
  * Return: int
  */
 int check(int a, int b)
