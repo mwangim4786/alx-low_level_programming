@@ -1,19 +1,6 @@
-#include <stdio.h>
+#ifndef _3_FUNCTION_LIKE_MACRO_H_
+#define _3_FUNCTION_LIKE_MACRO_H_
 
-#ifndef ABS(x)
+#define ABS(x) ((x) < 0 ? (-(x)) : (x))
 
-#define ABS(x)
-
-#endif
-
-/**
- * main - the mai function.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-        printf("%s\n", __FILE__);
-
-        return (0);
-}
+#endif /* _3_FUNCTION_LIKE_MACRO_H_ */
